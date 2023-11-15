@@ -1,14 +1,13 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding:0;
-  overflow: hidden;
+img.logo{
+  width: 10%;
+  padding-left: 3%;
 }
-
 
 div.menu li {
   float: right;
-  font-size: 200%
+  font-size: 200%;
+  display:flex;
+  margin:1%;
 }
 
 li a {
@@ -18,13 +17,24 @@ li a {
   padding: 30px 16px;
   text-decoration:  none;
 }
-
-ul {
+ ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
+  font-family: 'adobe-clean', 'Trebuchet MS', sans-serif;
+/*  font-size: 20px;*/
 }
+
+ul.objectifs{
+  margin-left: 30%;
+  font-family: 'adobe-clean', 'Trebuchet MS', sans-serif;
+  list-style: disc ;
+  font-size: 20px;
+  margin-right: 30%;
+}
+
+
+
 
 li a, .dropbtn {
   color: white;
@@ -67,6 +77,15 @@ li.dropdown {
 h1{ 
   text-align: center;
   margin: 5%; 
+  font-family: 'adobe-clean', 'Trebuchet MS', sans-serif;
+  padding: 2%;
+  
+}
+
+h2{
+  margin: 2%;
+  font-family: 'adobe-clean', 'Trebuchet MS', sans-serif;
+  text-align: center;
 }
 
 
@@ -89,10 +108,14 @@ div.desc {
 
 
 p{
-  margin: 2%
+  margin: 2%;
+  font-family: "arial", sans-serif;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 20px;
+
+
 }
-
-
 
 
 div.footer {
@@ -154,3 +177,4 @@ div.reseaux {
 h2 {
  color: #000000;
 }
+
