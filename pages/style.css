@@ -23,6 +23,7 @@ li a {
   overflow: hidden;
   font-family: 'adobe-clean', 'Trebuchet MS', sans-serif;
 /*  font-size: 20px;*/
+  line-height: 30px;
 }
 
 ul.objectifs{
@@ -37,7 +38,7 @@ ul.objectifs{
 
 
 li a, .dropbtn {
-  color: white;
+  color: white;  
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -78,7 +79,7 @@ h1{
   text-align: center;
   margin: 5%; 
   font-family: 'adobe-clean', 'Trebuchet MS', sans-serif;
-  padding: 2%;
+  padding: 4%;
   
 }
 
@@ -86,6 +87,7 @@ h2{
   margin: 2%;
   font-family: 'adobe-clean', 'Trebuchet MS', sans-serif;
   text-align: center;
+
 }
 
 
@@ -98,13 +100,13 @@ div.gallery {
 div.gallery img {
   width: 100%;
   height: auto;
-
-  
+  transition: transform 0.3s;
 }
 
-div.desc {
-  text-align: center;
-} 
+div.gallery img:hover {
+  transform: scale(1.2);
+}
+
 
 
 p{
@@ -154,7 +156,7 @@ div.column2 {
 }
 
 div.column3 {
-  margin-right: 10%;
+  /*margin-right: 10%;*/
   color: white;
 }
 
@@ -177,4 +179,3 @@ div.reseaux {
 h2 {
  color: #000000;
 }
-
