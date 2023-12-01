@@ -275,6 +275,15 @@ div.image-grid img:hover {
   transform: scale(1.2);
 }
 
+
+div.membres img{
+  border-radius: 50%;
+}
+
+
+
+
+
 @media (max-width: 650px)
 
 {
