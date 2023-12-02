@@ -1,3 +1,9 @@
+button img {
+    width: 20px; /* Ajustez la largeur selon vos besoins */
+    height: 20px; /* Ajustez la hauteur selon vos besoins */
+    margin-right: 5px; /* Ajoutez une marge à droite pour l'espacement */
+}
+
 img.logo{
   width: 10%;
   padding-left: 3%;
