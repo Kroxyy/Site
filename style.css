@@ -77,9 +77,10 @@ div.reseaux img{
 
 li a, .dropbtn {
   color: white;  
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 li a:hover, .dropdown:hover .dropbtn {
