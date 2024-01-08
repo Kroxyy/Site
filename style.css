@@ -295,11 +295,11 @@ div.membres img{
   } 
 
   #icons:before{
-    content: "/2715";
+    content: "\2715";
   }
 
   .active #icons:before {
-    content:"/2630";
+    content:"\2630";
   }
 
 
