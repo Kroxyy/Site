@@ -248,7 +248,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  font-size: calc(0.5rem + 1.5vw); 
+  font-size: calc(1rem + 1.5vw); 
 
 }
 
@@ -281,6 +281,10 @@ div.image-grid img:hover {
 div.membres img{
   border-radius: 50%;
 }
+iframe{
+  width: 800px;
+  height: 600px;
+}
 
 
 
@@ -289,6 +293,11 @@ div.membres img{
 @media (max-width: 650px)
 
 {
+
+iframe{
+  height: 200px;
+  width: 200px;
+  }
 
   #icons{
     display: block; 
