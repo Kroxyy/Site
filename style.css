@@ -1,14 +1,14 @@
+
 img.logo{
   width: 10%;
-  padding-left: 3%;
-  margin-left: 0;
+  margin-left:0;
 }
 
 div.menu li {
   float: right;
   font-size: 200%;
 /*  display:flex;*/
-margin:1%;
+/*margin:1%;*/
 font-size: calc(0.5rem + 1.5vw);
 }
 
@@ -80,6 +80,7 @@ li a, .dropbtn {
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -137,7 +138,7 @@ div.gallery {
 
 
 div.gallery img {
-  width: 100%;
+  width: 80%;
   height: auto;
   transition: transform 0.3s;
 }
@@ -231,6 +232,7 @@ a,
 a:visited{
   text-decoration: none;
   text-transform: uppercase;
+  font-size: smaller;
 }
 
 a:hover{
@@ -280,28 +282,27 @@ div.image-grid img:hover {
 div.membres img{
   border-radius: 50%;
 }
-
 iframe{
-  height: 400px;
-  width: 600px;
+  width: 800px;
+  height: 600px;
 }
 
+
+/*Changement format téléphone*/
 
 
 @media (max-width: 650px)
 
 {
 
-img.logo{
- display: none;
-}
-
+  img.logo{
+    display: none;
+  }
 
 iframe{
-  height: 300px;
-  width: 250px;
-}
-
+  height: 200px;
+  width: 200px;
+  }
 
   #icons{
     display: block; 
@@ -350,13 +351,13 @@ img{
   min-width: 50px;
 }
 
-/*h1{
+h1{
   font-size: 100%;
-}*/
+}
 
 ul.images{
   padding: 0%;
-  width: 400px;
+/*   width: 400px; */
   margin-left: 0%;
 }
 
@@ -396,14 +397,14 @@ div.column2{
 }
 
 
-/*.liste-horizontal li {
-  margin-bottom: 10px;
+.liste-horizontal li {
+  /*margin-bottom: 10px;*/
 }
 
 
 ul{
-  line-height: 30px;
-}*/
+  /*line-height: 30px;*/
+}
 
 
 
