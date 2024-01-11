@@ -1,7 +1,7 @@
-
 img.logo{
   width: 10%;
-  margin-left:0;
+  padding-left: 3%;
+  margin-left: 0;
 }
 
 div.menu li {
@@ -25,8 +25,8 @@ ul {
   margin: 0;
   overflow: hidden;
   font-family: 'adobe-clean', 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  line-height: 30px;
+  /*font-size: 20px;*/
+  /*line-height: 30px;*/
 }
 
 ul.objectifs{
@@ -80,7 +80,6 @@ li a, .dropbtn {
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
-  
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -281,12 +280,11 @@ div.image-grid img:hover {
 div.membres img{
   border-radius: 50%;
 }
+
 iframe{
-  width: 800px;
-  height: 600px;
+  height: 400px;
+  width: 600px;
 }
-
-
 
 
 
@@ -294,10 +292,16 @@ iframe{
 
 {
 
+img.logo{
+ display: none;
+}
+
+
 iframe{
-  height: 200px;
-  width: 200px;
-  }
+  height: 300px;
+  width: 250px;
+}
+
 
   #icons{
     display: block; 
@@ -313,7 +317,7 @@ iframe{
 
 
   nav ul {
-    position: fixed;
+/*    position: fixed;*/
 /*    left: -100%;*/
 top: 5%;
 flex-direction:column;
@@ -346,13 +350,13 @@ img{
   min-width: 50px;
 }
 
-h1{
+/*h1{
   font-size: 100%;
-}
+}*/
 
 ul.images{
   padding: 0%;
-/*   width: 400px; */
+  width: 400px;
   margin-left: 0%;
 }
 
@@ -392,14 +396,14 @@ div.column2{
 }
 
 
-.liste-horizontal li {
+/*.liste-horizontal li {
   margin-bottom: 10px;
 }
 
 
 ul{
   line-height: 30px;
-}
+}*/
 
 
 
